@@ -90,3 +90,16 @@
     cursor: pointer;
 }
 
+/* Point-created modal */
+
+#modal.point .content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#modal.point h1 {
+    color: white;    
+
+    margin-top: 32px;
+}
